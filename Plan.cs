@@ -12,8 +12,8 @@ namespace Actividad3
         private static readonly Dictionary<int, Cuenta> entradas;
         private static readonly Dictionary<int, Cuenta> entradasMayor;
 
-        const string nombreArchivo = @"C:\Users\tomi\Desktop\PlanDeCuentas.txt";
-        const string nombreArchivoMayor = @"C:\Users\tomi\Desktop\Mayor.txt";
+        const string nombreArchivo = "PlanDeCuentas.txt";
+        const string nombreArchivoMayor = "Mayor.txt";
         static Plan()
         { 
             entradas = new Dictionary<int, Cuenta>();
